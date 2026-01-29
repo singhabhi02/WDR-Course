@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Basic form Structure</h2>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Student Registration form</legend>
+        <label>Name:</label><br />
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter a name"
+          required
+        /><br /><br />
+
+        <label>Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+        /><br /><br />
+
+        <label>Password:</label><br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password" /><br /><br>
+        </label>
+
+        <label>Age</label><br />
+        <input type="number" placeholder="Enter your age" /><br /><br />
+
+        <label>Gender</label><br />
+        <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Female <br /><br />
+
+        <label>Resume</label>
+        <input type="file" name="resume" accept=".pdf, .docx"/><br /><br />
+
+        <label>Course</label><br />
+        <select name="course">
+          <option>Select Course</option>
+          <option>Java Course</option>
+          <option>Python Course</option>
+          <option>Web Development</option>
+          <option>Data Science</option></select
+        ><br /><br />
+
+        <label>Address</label><br />
+        <textarea placeholder="Enter your full address"></textarea><br /><br />
+
+        <!-- <input type="submit" value="Submit" /> -->
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

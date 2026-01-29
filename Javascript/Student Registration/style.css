@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+small {
+  color: red;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}

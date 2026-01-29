@@ -1,0 +1,36 @@
+h1,
+p {
+  font-family: Arial;
+}
+
+/* Card Styling */
+.card {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  box-shadow: black 0px 4px 8px 0px;
+  border-radius: 10px;
+  background-color: rgb(202, 170, 122);
+  margin: 50px auto;
+}
+
+#name {
+  color: rgb(52, 29, 20);
+}
+
+.role {
+  color: rgb(84, 50, 34);
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(84, 50, 34);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(187, 71, 25);
+}
