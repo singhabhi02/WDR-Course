@@ -10,3 +10,8 @@ console.log(lodash.reverse(number));
 const app = express();
 
 //Global package
+
+//GET -> TO Fetch the data   ( profile information  )
+//POST -> to send the data    (login form )
+//PUT -> update the data     (Edit your information)
+//DELETE -> delete some data ( delete something)
