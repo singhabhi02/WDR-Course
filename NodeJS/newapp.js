@@ -11,7 +11,11 @@ const app = express();
 
 //Global package
 
-//GET -> TO Fetch the data   ( profile information  )
-//POST -> to send the data    (login form )
-//PUT -> update the data     (Edit your information)
-//DELETE -> delete some data ( delete something)
+// GET -> TO Fetch the data   ( profile information  )
+// GET -> TO Fetch the data   ( profile information  )
+// POST -> to send the data    (login form )
+// POST -> to send the data    (login form )
+// PUT -> update the data     (Edit your information)
+// PUT -> update the data     (Edit your information)
+// DELETE -> delete some data ( delete something)
+// DELETE -> delete some data ( delete something)
