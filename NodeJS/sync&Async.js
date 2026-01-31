@@ -52,7 +52,7 @@ async function fetchUsers() {
   }
 }
 
-fetchUsers();
+// fetchUsers();
 
 // fetch() - returns the Promise
 // await() - it waits till the promise resolves
