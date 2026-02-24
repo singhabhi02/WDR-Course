@@ -1,5 +1,5 @@
 // alert("hello");
-let fruits = ["apple", "banana", "mango", "kiwi", "orange", "pineapple"];
+// let fruits = ["apple", "banana", "mango", "kiwi", "orange", "pineapple"];
 
 // console.log(fruits);
 
@@ -40,7 +40,7 @@ let fruits = ["apple", "banana", "mango", "kiwi", "orange", "pineapple"];
 //--------------------XXXXX-----------------------
 
 // Loops in arrays
-let marks = [90, 87, 67, 90, 67, 77];
+// let marks = [90, 87, 67, 90, 67, 77];
 
 // for (let i = 0; i < marks.length; i++) {
 //   console.log(marks[i]);
@@ -54,9 +54,9 @@ let marks = [90, 87, 67, 90, 67, 77];
 
 //FOR EACH METHOD
 
-let increaseMarks = marks.forEach((mark) => mark + 10);
-console.log(increaseMarks);
-console.log(marks);
+// let increaseMarks = marks.forEach((mark) => mark + 10);
+// console.log(increaseMarks);
+// console.log(marks);
 
 // let students = ["Amit", "Vraj", "Vishesh"];
 // students.forEach((student) => {
@@ -85,3 +85,11 @@ console.log(marks);
 //  Return  value                   undefined              new array
 //  Modifies  original array          No                       No
 //  InterView preference            Both depends on the useCase
+
+// what module.exports do?
+
+// What is the scope of node js module?
+
+console.log(typeof NaN);
+
+console.log(NaN === NaN);
