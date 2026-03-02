@@ -7,6 +7,7 @@ const[theme , setTheme] = useState("light")
 
   return (
     <>
+    {/* Default look of the webpage */}
       <div style={{
         height: "100vh",
         padding: "20px",
@@ -15,6 +16,7 @@ const[theme , setTheme] = useState("light")
       }}>
         <h1>Theme Switcher app</h1>
         
+        {/* passing the props from another component */}
         <ThemeButton theme ={theme} setTheme={setTheme}/>
         <Preview theme={theme}/>
       </div>
