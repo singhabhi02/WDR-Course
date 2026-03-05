@@ -27,8 +27,8 @@ const passwordRef = useRef(null);
   }, [generatePassword]);
 
   const copyPassword = ()=>{
-    passwordRef.current.select();
     navigator.clipboard.writeText(password)
+    passwordRef.current.select();
   }
 
   return (
